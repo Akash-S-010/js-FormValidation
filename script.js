@@ -26,7 +26,7 @@ form.addEventListener('submit', (e) => {
         emailError.innerHTML = "invalid Email"
         showError(email)
         
-    } else if (!emailPattern.test(email.value)) {
+    } else if (!email.value.match(emailPattern)) {
         emailError.innerHTML = "Invalid Email"
         showError(email)
 
