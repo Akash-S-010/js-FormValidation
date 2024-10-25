@@ -64,12 +64,13 @@ form.addEventListener('submit', (e) => {
     }
 })
 
-
+// Function to show error (add 'error' class and remove 'success')
 function showError(input) {
     input.parentElement.classList.add("error")
     input.parentElement.classList.remove("success")
 }
 
+// Function to show success (add 'success' class and remove 'error')
 function showSuccess(input) {
     input.parentElement.classList.add("success")
     input.parentElement.classList.remove("error")
