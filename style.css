@@ -38,6 +38,7 @@ body{
     margin-top: 5px;
     display: block;
     border: 2px solid #dbdbdb;
+    outline: none;
     padding: 10px;
     font-size: 15px;
     border-radius: 5px;
