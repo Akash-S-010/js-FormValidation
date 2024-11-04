@@ -3,10 +3,7 @@ let userName = document.querySelector("#username")
 let email = document.querySelector("#email")
 let password = document.querySelector("#password")
 let password2 = document.querySelector("#password2");
-let unameError = document.querySelector(".username-error-msg");
-let emailError = document.querySelector(".email-error-msg");
-let passwordError = document.querySelector(".password-error-msg");
-let password2Error = document.querySelector(".password2-error-msg")
+
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
